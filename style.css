@@ -1,0 +1,68 @@
+
+.body{
+    background-image:image(mainpic);
+    background-size:cover;
+}
+.container{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.mainpic{
+    width:100%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+.container1{
+    width: 90%;
+}
+}
+
+.myimage{
+    
+    height: 200px;
+    width: 180px;
+    margin: 50px;
+
+    border-radius: 50%;
+   
+}
+h1,H2 {
+    text-align: center;
+    font-size: x-large;
+    
+}
+.wise {
+    text-align: center;
+    font-size:larger;
+    font-weight: 400;
+}
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.rounded-3 {
+    border-radius: var(--bs-border-radius-lg) !important;
+}
+.bg-gradient {
+    background-image: var(--bs-gradient) !important;
+}
+.fs-4 {
+    font-size: calc(1.275rem + .3vw) !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.d-inline-flex {
+    display: inline-flex !important;
+}
+.text-bg-primary {
+    color: #fff !important;
+    background-coLor: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
+}
